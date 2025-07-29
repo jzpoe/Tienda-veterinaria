@@ -1,0 +1,9 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  /* padding-top: 20px; /* Igual o mayor a la altura del navbar */
+
+
+}
+

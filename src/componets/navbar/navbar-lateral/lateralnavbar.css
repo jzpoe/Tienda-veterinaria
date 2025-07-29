@@ -1,0 +1,54 @@
+.lateranavbar{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 168px;
+    padding: 10px;
+}
+
+.lateranavbar-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.lateranavbar-ul li{
+    padding: 5px;
+    color: #003c8f;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.lateranavbar-ul li:hover{
+    background-color: #f0f0f0;
+}
+.menu-lateral{
+    display: none;
+    
+}
+@media (max-width: 768px) {
+    .lateranavbar{
+    display: flex;
+    flex-direction: column; 
+    width: 20px;
+    
+}
+
+.menu-lateral{
+    display: block;
+    font-size: 24px;
+  cursor: pointer;
+  color: #1b0707;
+  
+}
+.lateranavbar-ul{
+    display: none;
+}
+.lateranavbar-ul.open{
+        display: flex;
+
+}
+}

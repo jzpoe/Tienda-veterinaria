@@ -1,0 +1,35 @@
+.upload-container{
+display: flex;
+justify-content: space-between;
+width: 100%;
+gap: 20px;
+padding: 10px;
+height: 20vh;
+}
+.upload-container input {
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.input-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.upload-container input:focus {
+    background-color: #f0f0f0;
+    outline: none;
+}
+
+
+.preview-container{
+    
+   
+    
+}
