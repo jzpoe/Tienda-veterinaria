@@ -1,11 +1,11 @@
-.lateranavbar{
+.lateranavbar {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     margin-top: 168px;
     padding: 10px;
 }
 
-.lateranavbar-ul{
+.lateranavbar-ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -15,40 +15,55 @@
 
 }
 
-.lateranavbar-ul li{
+.lateranavbar-ul li {
     padding: 5px;
     color: #003c8f;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-.lateranavbar-ul li:hover{
+
+.lateranavbar-ul li:hover {
     background-color: #f0f0f0;
 }
-.menu-lateral{
+
+.menu-lateral {
     display: none;
-    
-}
-@media (max-width: 768px) {
-    .lateranavbar{
-    display: flex;
-    flex-direction: column; 
-    width: 20px;
-    
+
 }
 
-.menu-lateral{
-    display: block;
-    font-size: 24px;
-  cursor: pointer;
-  color: #1b0707;
-  
-}
-.lateranavbar-ul{
-    display: none;
-}
-.lateranavbar-ul.open{
+@media (max-width: 768px) {
+    .lateranavbar {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+        background-color: #f0f0f0bb;
+        color: black;
+
+    }
+
+    .menu-lateral {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        color: black;
+
+    }
+
+    .lateranavbar-ul li {
+        color: blue;
+        padding: 0px;
+        margin: 0;
+    }
+
+    .lateranavbar-ul {
+        display: none;
+    }
+
+    .lateranavbar-ul.open {
         display: flex;
 
-}
+    }
 }
